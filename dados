@@ -1,0 +1,9 @@
+{
+	"name": "Imovel 1",
+	"latitude": "-16.6577801",
+	"longitude": "-49.3126174",
+	"about": "Sobre o Imovel",
+	"instructions": "Venha fazer sua visita",
+	"opening_hours": "qualquer horario",
+	"open_on_weekends": "true"
+}
