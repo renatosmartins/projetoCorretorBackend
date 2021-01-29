@@ -27,7 +27,7 @@ export default class Properties {
 
     @Column()
     open_on_weekends: boolean;
-
+    
     @OneToMany(() => Image, image => image.immobile, {
         cascade: ['insert', 'update']
     })

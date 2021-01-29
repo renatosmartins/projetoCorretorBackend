@@ -9,7 +9,7 @@ export default class Image {
     @Column()
     path: string;
 
-    @ManyToOne(() => Immobile, immobile => immobile.images )
+    @ManyToOne(() => Immobile, immobile => immobile.image)
     @JoinColumn({ name: 'immobile_id'})
     immobile: Immobile;
 }
